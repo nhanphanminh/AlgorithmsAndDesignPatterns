@@ -78,6 +78,12 @@
     <Compile Include="Structure\Adapter\AdapterClass_ObjectDesign.cs" />
     <Compile Include="Structure\Adapter\AdapterClass_ClassDesign.cs" />
     <Compile Include="Structure\Adapter\ITarget.cs" />
+    <Compile Include="Structure\Bridge\CircleShape.cs" />
+    <Compile Include="Structure\Bridge\GreenBrush.cs" />
+    <Compile Include="Structure\Bridge\IBrushColor.cs" />
+    <Compile Include="Structure\Bridge\Rectangle.cs" />
+    <Compile Include="Structure\Bridge\RedBrush.cs" />
+    <Compile Include="Structure\Bridge\Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
