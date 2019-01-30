@@ -74,9 +74,14 @@
     <Compile Include="Creations\Singleton\Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structure\Adapter\AdapteeClass.cs" />
+    <Compile Include="Structure\Adapter\AdapterClass_ObjectDesign.cs" />
+    <Compile Include="Structure\Adapter\AdapterClass_ClassDesign.cs" />
+    <Compile Include="Structure\Adapter\ITarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
