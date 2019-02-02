@@ -84,6 +84,9 @@
     <Compile Include="Structure\Bridge\Rectangle.cs" />
     <Compile Include="Structure\Bridge\RedBrush.cs" />
     <Compile Include="Structure\Bridge\Shape.cs" />
+    <Compile Include="Structure\Composite\CompositeNode.cs" />
+    <Compile Include="Structure\Composite\ITreeNode.cs" />
+    <Compile Include="Structure\Composite\Leaf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
