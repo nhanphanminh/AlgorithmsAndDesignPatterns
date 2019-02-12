@@ -1,8 +1,10 @@
 ﻿using ConsoleApp1.SO;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Dynamic;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
@@ -433,9 +435,24 @@ namespace SO
 
 
         #endregion Concurrence Perfomances
+
+        private static void TestXML()
+        {
+            string xmlString = @"<?xml version=""1.0"" encoding=""utf-8""?><Message important=""yes"" recevied=""2019-2-12""><Body>Hi there fella!</Body></Message>";
+            XDocument doc = XDocument.Parse(xmlString);
+            string json = JsonConvert.SerializeXNode(doc);
+            dynamic obj = JsonConvert.DeserializeObject<ExpandoObject>(json);
+
+            Console.WriteLine(obj.Message);
+            Console.WriteLine(obj.Message.Values);
+            Console.WriteLine(obj.Message.recevied);
+            Console.WriteLine(obj.Message.@recevied);
+
+        }
         [STAThread]
         public static void Main(string[] args)
         {
+            TestXML();
             XMLReading.CommentOutXML("XMLFile1.xml", "XMLFile1.xml");
         }
         #region SerializeDictionary

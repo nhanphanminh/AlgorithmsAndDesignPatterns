@@ -94,6 +94,10 @@
     <Compile Include="Structure\Decorator\LastExpression.cs" />
     <Compile Include="Structure\Decorator\ListExpression.cs" />
     <Compile Include="Structure\Decorator\ParamExpression.cs" />
+    <Compile Include="Structure\Facade\Bank.cs" />
+    <Compile Include="Structure\Facade\Credit.cs" />
+    <Compile Include="Structure\Facade\Loan.cs" />
+    <Compile Include="Structure\Facade\Mortgage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
