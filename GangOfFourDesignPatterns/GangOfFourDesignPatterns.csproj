@@ -87,6 +87,17 @@
     <Compile Include="Structure\Composite\CompositeNode.cs" />
     <Compile Include="Structure\Composite\ITreeNode.cs" />
     <Compile Include="Structure\Composite\Leaf.cs" />
+    <Compile Include="Structure\Decorator\AllExpression.cs" />
+    <Compile Include="Structure\Decorator\ConstExpression.cs" />
+    <Compile Include="Structure\Decorator\FirstExpression.cs" />
+    <Compile Include="Structure\Decorator\IExpression.cs" />
+    <Compile Include="Structure\Decorator\LastExpression.cs" />
+    <Compile Include="Structure\Decorator\ListExpression.cs" />
+    <Compile Include="Structure\Decorator\ParamExpression.cs" />
+    <Compile Include="Structure\Facade\Bank.cs" />
+    <Compile Include="Structure\Facade\Credit.cs" />
+    <Compile Include="Structure\Facade\Loan.cs" />
+    <Compile Include="Structure\Facade\Mortgage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
