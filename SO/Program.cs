@@ -1,4 +1,4 @@
-﻿using ConsoleApp1.SO;
+using ConsoleApp1.SO;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Concurrent;
@@ -19,7 +19,7 @@ namespace SO
 
         private static void StringExtensionTest()
         {
-            var S = "sadadad";
+            var S = "sadadaddsad";
             Console.WriteLine(S.Length());
             Console.WriteLine(S.Length(2));
         }
