@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq;
 
@@ -11,7 +11,7 @@ namespace BitInterView
 
         //NOTE:
 
-        //Each dish is supposed to be eaten by only one person.Sharing is not allowed.
+        // Each dish is supposed to be eaten by only one person.Sharing is not allowed.
         //    Each friend can take any dish unlimited number of times.
         //    There always exists a dish with filling capacity 1 so that a solution always exists.
         private Dictionary<int, int> GetCostDictionary(List<int> capacityDishes, List<int> costDish)
